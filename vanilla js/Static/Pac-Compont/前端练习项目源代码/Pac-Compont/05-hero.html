@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Omifood Hero Section</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+
+      header {
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.4),
+            rgba(34, 34, 34, 0.4)
+          ),
+          url(hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        /* background-color: green; */
+      }
+
+      .container-header {
+        /* background-color: pink; */
+        width: 1200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .container-box {
+        width: 50%;
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        /* color: #444; */
+        padding-top: 32px;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>Logo</div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="container-header">
+        <div class="container-box">
+          <h1>A healty meal deliver to your door, every single day</h1>
+          <p>
+            The smart 365-days-per-year food subscription that will make you eat
+            healthy algain. Taiload to your personal tastes and nutritional
+            needs
+          </p>
+          <a href="#" class="btn">Starting eating well</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="container">
+      <div>
+        <h2>Some random heading</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+          facilis, sunt asperiores, placeat repellat similique quibusdam eveniet
+          quam beatae tempora rem qui voluptatibus perspiciatis consequatur
+          consequuntur maxime facere delectus aliquam!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

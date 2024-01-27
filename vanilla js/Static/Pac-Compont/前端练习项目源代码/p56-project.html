@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: 16px/200px;
+            text-indent: 2em;
+        }
+        h1 {
+           text-align: center;  
+        }
+
+        .box{
+            float: left;
+            border: 2px solid red;
+            height: 200px;
+            width: 200px;
+            margin-left: -2px;
+        }
+        .box:hover{
+            position: relative;
+            border: 2px solid blue;
+        }
+        input{
+            outline: none;
+        }
+        textarea{
+            resize: none;
+            vertical-align: ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div style="clear: both;"></div>
+    </div>
+    <h1>青春不常在，抓紧谈恋爱</h1>
+    <form action="#" name="sexual" method="get">
+        性别：<input type="radio" name="sex" value="male" id="male">
+        <label for="male"><img src="C:\Users\rain\Desktop\source\一些照片\2022-12-03-121021.jpg" height="10px" width="10px" alt="a"></label> 
+        <input type="radio" name="sex" value="female"> <label for="female">女</label>
+        <br/>
+        生日：<select name="year" id="a">
+              <option>--请选择年--</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+             </select>
+             <select name="month" id="b">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+             </select>
+             <select name="day" id="c">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+             </select>
+        <br/>
+        所在地区<input type="text" name="doiman">
+        <br/>
+        婚姻情况 <input type="radio" name="marry">未婚 <input type="radio" name="marry">已婚 
+                <input type="radio" name="marry">离婚
+        <br/>
+        学历 <select name="xueli" id="d">
+            <option value="youeryuan">幼儿园</option>
+            <option value="xiaoxue">小学</option>
+            <option value="youeryuan">初中</option>
+            <option value="youeryuan">高中</option>
+            <option value="youeryuan">专科</option>
+            <option value="youeryuan">本科</option>
+            <option value="youeryuan">硕士</option>
+            <option value="youeryuan" selected>博士</option>   
+            </select>
+        <br/>
+        喜欢的类型<input type="checkbox" name="type" checked>妩媚的<input type="checkbox" name="type">可爱的
+                 <input type="checkbox" name="type">小鲜肉<input type="checkbox" name="type">老腊肉
+                 <input type="checkbox" name="type">都喜欢
+        <br/>
+        自我介绍
+        <br/>
+        <textarea name="ziwojieshao" id="2" cols="10" rows="10">请写下你的内容</textarea>adslkajdklas
+        <br/>
+        <input type="submit" value="免费注册">
+        <br/>
+        <input type="radio" value="prolocal">我同意注册条款和会员加入标准
+        <br/>
+        <a href="#">我是会员，立刻登录</a>
+
+        <h1>我承诺</h1>
+        <dl>
+            <ul>年满18岁，单身</ul>
+            <ul>抱着严谨的态度</ul>
+            <ul>真诚寻找另一半</ul>
+        </dl>
+    </form>
+</body>
+</html>
